@@ -1,3 +1,5 @@
+I am learning Anroid mobile apllication development in Udacity
+=======
 Miwok App
 ===================================
 
