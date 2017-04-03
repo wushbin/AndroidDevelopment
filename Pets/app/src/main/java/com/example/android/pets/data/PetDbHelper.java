@@ -34,9 +34,9 @@ public class PetDbHelper extends SQLiteOpenHelper{
         db.execSQL(SQL_CREATE_PETS_TABLE);
 
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         
     }
+
 }
