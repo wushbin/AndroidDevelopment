@@ -190,7 +190,6 @@ public class MainActivity extends AppCompatActivity {
         defaultConfigMap.put(FRIENDLY_MSG_LENGTH_KEY, DEFAULT_MSG_LENGTH_LIMIT);
         mFirebaseRemoteConfig.setDefaults(defaultConfigMap);
         fetchConfig();
-
     }
 
     @Override
@@ -261,9 +260,6 @@ public class MainActivity extends AppCompatActivity {
     private void onSignedInInitialize(String userName){
         mUsername = userName;
         attachDatabaseReadListener();
-
-
-
     }
 
     private void onSignedOutCleanUp(){

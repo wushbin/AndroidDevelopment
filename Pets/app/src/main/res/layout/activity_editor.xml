@@ -30,7 +30,6 @@
         <TextView
             android:text="@string/category_overview"
             style="@style/CategoryStyle" />
-
         <!-- Input fields -->
         <LinearLayout
             android:layout_height="wrap_content"
